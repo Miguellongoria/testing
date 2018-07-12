@@ -1,0 +1,65 @@
+﻿@page
+@model IndexModel
+@{
+}
+    <h2>My Connections</h2>
+    <div>
+        <a asp-page="create">add new connection</a>
+        @if(Model.afterAddMessages !=null)
+        {
+           <div>
+               @Model.afterAddMessages
+           </div>
+
+        }
+    </div>
+
+    <div>
+        @if (Model.myConnections.Count() > 0)
+            {
+             <form method="post">
+                 <div>
+                     <table>
+                         <tr>
+                             <th>
+                                 @Html.DisplayNameFor(m => m.myConnections.FirstOrDefault().ConnectionName)
+                             </th>
+                             <th>
+                                 @Html.DisplayNameFor(m => m.myConnections.FirstOrDefault().ConnectionDescription)
+                             </th>
+                             <th>
+                                 @Html.DisplayNameFor(m => m.myConnections.FirstOrDefault().StarRating)
+                             </th>
+                             <th>
+                               
+                             </th>
+                         </tr>
+                         @foreach (var item in Model.myConnections)
+                         {
+                         <tr>
+                             <td>
+                                 @Html.DisplayFor(m => item.ConnectionName)
+                             </td>
+                             <td>
+                                 @Html.DisplayFor(m => item.ConnectionDescription)
+                             </td>
+                             <td>
+                                 @Html.DisplayFor(m => item.StarRating)
+                             </td>
+                             <td>
+                                 <a asp-page="Edit"asp-route-id="@item.ID">edit</a>
+                                 <button asp-page-handler="delete"asp-route-id="@item.ID">&times;</button>
+                             </td>
+                         </tr>
+
+                         }
+                     </table>
+                 </div>
+             </form>  
+
+        }else
+        {
+            <p>No connection Currently</p>
+        }
+    </div>
+

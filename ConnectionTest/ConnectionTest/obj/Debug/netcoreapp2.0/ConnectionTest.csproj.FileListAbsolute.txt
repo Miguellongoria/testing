@@ -1,0 +1,11 @@
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\bin\Debug\netcoreapp2.0\ConnectionTest.deps.json
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\bin\Debug\netcoreapp2.0\ConnectionTest.runtimeconfig.json
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\bin\Debug\netcoreapp2.0\ConnectionTest.runtimeconfig.dev.json
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\bin\Debug\netcoreapp2.0\ConnectionTest.dll
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\bin\Debug\netcoreapp2.0\ConnectionTest.pdb
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\obj\Debug\netcoreapp2.0\ConnectionTest.csprojAssemblyReference.cache
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\obj\Debug\netcoreapp2.0\ConnectionTest.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\obj\Debug\netcoreapp2.0\ConnectionTest.AssemblyInfoInputs.cache
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\obj\Debug\netcoreapp2.0\ConnectionTest.AssemblyInfo.cs
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\obj\Debug\netcoreapp2.0\ConnectionTest.dll
+C:\Users\Miguel Longoria\source\repos\ConnectionTest\ConnectionTest\obj\Debug\netcoreapp2.0\ConnectionTest.pdb

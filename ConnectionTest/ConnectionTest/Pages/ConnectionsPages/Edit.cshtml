@@ -1,0 +1,22 @@
+﻿@page
+@model EditModel
+@{
+
+    <div>
+        <h2>edit Connection Item</h2>
+    </div>
+    <div>
+        <form method="post">
+            <input asp-for="Connection.ID"type="hidden" />
+            <input asp-for=" Connection.ConnectionName" type="text" placeholder="Connection Name" />
+            <span asp-validation-for="Connection.ConnectionName"></span>
+            <input asp-for=" Connection.ConnectionDescription" type="text" placeholder="ConnectionDescription" />
+            <span asp-validation-for="Connection.ConnectionDescription"></span>
+            <input asp-for=" Connection.StarRating" type="text" placeholder="StarRating" />
+            <span asp-validation-for="Connection.StarRating"></span>
+            <input type="submit" value="Edit Connection" />
+            <a asp-page="Index">Back to Connection List</a>
+
+        </form>
+    </div>
+}
